@@ -6,6 +6,8 @@ import { type PropsWithChildren } from 'react';
  * The contents of this function only run in Node.js environments and do not have access to the DOM or browser APIs.
  */
 export default function Root({ children }: PropsWithChildren) {
+  console.log("Root: +html.tsx called!");
+
   return (
     <html lang="en">
       <head>

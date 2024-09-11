@@ -17,6 +17,7 @@ export function ThemedText({
 }: ThemedTextProps) {
   const color = useThemeColor({ light: lightColor, dark: darkColor }, 'text');
 
+  console.log( "ThemedText: ThemedText.tsx" );
   return (
     <Text
       style={[

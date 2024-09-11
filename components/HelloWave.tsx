@@ -10,6 +10,8 @@ import Animated, {
 import { ThemedText } from '@/components/ThemedText';
 
 export function HelloWave() {
+  console.log("HelloWave: HelloWave.tsx");
+
   const rotationAnimation = useSharedValue(0);
 
   rotationAnimation.value = withRepeat(

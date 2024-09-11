@@ -6,6 +6,8 @@ import { Platform } from 'react-native';
 type Props = Omit<ComponentProps<typeof Link>, 'href'> & { href: string };
 
 export function ExternalLink({ href, ...rest }: Props) {
+  console.log("ExternalLink: ExternalLink.tsx called!");
+
   return (
     <Link
       target="_blank"

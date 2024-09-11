@@ -25,6 +25,8 @@ export default function ParallaxScrollView({
   const scrollRef = useAnimatedRef<Animated.ScrollView>();
   const scrollOffset = useScrollViewOffset(scrollRef);
 
+  console.log("ParallaxScrollView: ParallaxScrollView.tsx called!");
+
   const headerAnimatedStyle = useAnimatedStyle(() => {
     return {
       transform: [
